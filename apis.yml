@@ -1,7 +1,6 @@
 aid: biomason
 name: Biomason
-description: 'Biomason is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Biomason is a biotechnology company that engineers living concrete using microbes to replace traditional Portland cement, aiming to reduce carbon emissions and create sustainable building materials. Founded in Research Triangle Park, NC, Biomason offers biocement products and services for construction, partnering with industry leaders to scale eco‑friendly concrete solutions.'
 url: https://raw.githubusercontent.com/api-evangelist/biomason/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -11,6 +10,10 @@ specificationVersion: '0.20'
 created: '2026-09-28'
 modified: '2026-09-28'
 tags:
+- Biotechnology
+- SustainableConstruction
+- Concrete
+- Bioengineering
 - Company
 apis: []
 maintainers:
@@ -19,5 +22,17 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/biomason-domain-security.yml
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://biomason.com/
+- type: Documentation
+  url: https://biomason.com/
+- type: About
+  url: https://biomason.com/about
+- type: Contact
+  url: https://biomason.com/contact
+- type: TermsOfService
+  url: https://biomason.com/terms
+- type: PrivacyPolicy
+  url: https://biomason.com/privacy-policy
